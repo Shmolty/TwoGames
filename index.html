@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Games - GurrC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Colton Gurr</h1>
+    <h1>Shall we play a game?</h1>
+
+    <div class="tabs">
+        <ul>
+            <li class="trigger" data-target="#coin">Coin Toss</li>
+            <li class="trigger" data-target="#guess">Guessing Game</li>
+        </ul>
+        <div class="content" id="coin">
+            <h2>Toss a Coin</h2>
+
+            <form class="coinToss">
+                <button class="heads" value="heads">Heads</button>
+                <button class="tails" value="tails">Tails</button>
+            </form>
+
+                <br>
+
+                <img class="coinImg" src="images/both.jpg" alt="both">
+
+                <div class="tossResult"></div>
+
+                <div class="winLoss"></div>
+        </div>
+
+        <div class="content" id="guess">
+            <h2>Guessing Game</h2>
+            <p>I have selected a random number between 1 and 100.<br>
+                See if you can guess it in 10 turns or fewer.<br>
+                I'll tell you if your guess was too high or too low.</p>
+            
+                <form id="guessForm"> Enter a guess:
+                    <input type="text" id="guessField">
+                </form>
+                <p id="previous"></p>
+                <input type="submit" value="submit">
+                <p><span id="result"></span></p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="coin.js"></script>
+    <script src="guess.js"></script>
+</body>
+</html>

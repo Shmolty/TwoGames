@@ -1,0 +1,69 @@
+body {
+    font-size: 1.25em;
+    width: 80%;
+    margin: auto;
+    background-color: #EEEEEE;
+    text-align: center;
+}
+h1 {
+    color: #6a1fbe;
+}
+.tabs > ul {
+    padding: 0;
+}
+.tabs .trigger {
+    list-style-type: none;
+    background: #b8b6b6;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.tabs .trigger.active {
+    background: #6a1fbe;
+    color: white;
+}
+.tabs .content{
+    background: #ffffff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    display: none;
+}
+h2 {
+    color: #6a1fbe;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.tabs .content.active {
+    display: block;
+}
+button {
+    font-size: 1.25em;
+}
+#guessField{
+    font-size: x-large;
+}
+#result {
+    padding: 3px;
+    font-size: xx-large;
+}
+
+.tooBig {
+    background-color: pink;
+    color: blue;
+}
+.tooSmall {
+    background-color: lightblue;
+    color: blue;
+}
+.tooMany {
+    background-color: red;
+    color: black;
+}
+.justRight {
+    background-color: lightgreen;
+    color: green;
+}
+#reset {
+    font-size: x-large;
+}
