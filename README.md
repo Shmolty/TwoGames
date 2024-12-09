@@ -26,7 +26,7 @@ toggleTabs(e) {
 When the user clicks a certain tab, the corresponding
 content becomes active, and the other tabs content is toggled off. This is done using a click event listener for the tabs, a function for hiding and 
 activating content, and a function for highlighting the selected tab. All of this is wrapped up inside a created Class and initialized inside if index.js.
-```
+``` js
 const tabs = new Tabs(document.querySelector('.tabs'));
 tabs.init();
 ```
