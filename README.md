@@ -3,6 +3,8 @@
 This project is a website that I created using HTML, CSS, and Javascript. It is a page with Two Games that you can choose from to play. 
 The site is set up so that only one game will display on the web-page at a time, and you can switch to the other via tabs at the top.
 
+You can view and interact with the site [right here!](https://shmolty.github.io/TwoGames/)
+
 This was accomplished by creating functions to toggle the ".content" sections 'active' state, and highlight the selected tab.
 ``` js
 toggleTabs(e) {
