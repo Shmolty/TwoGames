@@ -1,4 +1,7 @@
 # TwoGames Website!
+
+[![Build Status](https://dev.azure.com/DevOpsGurrOrg/DevOpsGurrProject/_apis/build/status%2FShmolty.TwoGames?branchName=main)](https://dev.azure.com/DevOpsGurrOrg/DevOpsGurrProject/_build/latest?definitionId=2&branchName=main)
+
 ## About
 This project is a website that I created using HTML, CSS, and Javascript. It is a page with Two Games that you can choose from to play. 
 The site is set up so that only one game will display on the web-page at a time, and you can switch to the other via tabs at the top.
